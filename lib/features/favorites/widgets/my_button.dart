@@ -1,6 +1,7 @@
-import 'package:aa_travel_planner/repository/favorites_repository.dart';
 import 'package:aa_travel_planner/main.dart';
 import 'package:flutter/material.dart';
+
+import '../repository/favorites_repository.dart';
 
 class MyButton extends StatelessWidget {
   const MyButton({

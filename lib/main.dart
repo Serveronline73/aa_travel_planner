@@ -1,10 +1,10 @@
 import 'dart:developer';
 
-import 'package:aa_travel_planner/repository/favorites_repository.dart';
 import 'package:flutter/material.dart';
 
-import 'models/favorite_card.dart';
-import 'widgets/favorites_screen.dart';
+import 'features/favorites/models/favorite_card.dart';
+import 'features/favorites/repository/favorites_repository.dart';
+import 'features/favorites/screen/favorites_screen.dart';
 
 void main() {
   runApp(const MainApp());

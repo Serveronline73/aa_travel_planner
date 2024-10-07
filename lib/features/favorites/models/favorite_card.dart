@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../features/favorites/repository/favorites_repository.dart';
-import '../features/favorites/screen/favorites_details_screen.dart';
+import '../repository/favorites_repository.dart';
+import '../screen/favorites_details_screen.dart';
 import '../../../main.dart';
 
 class FavoriteCard extends StatelessWidget {
